@@ -2,4 +2,4 @@ language: python
 python:
   - "3.8"
 script:
-- pytest tests_test_hangman_app.py
+- pytest --cov=. tests_test_hangman_app.py
